@@ -1,10 +1,10 @@
 
 #main{
-         background-repeat: repeat;
+         background-repeat: no-repeat;
       background-attachment: fixed;  
       background-size: 100%;
     background-image: url(keyboard.jpg);
-    height: 800px;    
+    height: 700px;    
 }
 #main h1{
     font: black;   
@@ -12,8 +12,9 @@
 }
 #about{
     display: flex;   
-    background-color: pink;
+   /* background-color: pink;*/
    padding-top: 50px;
+     padding-bottom: 50px;
 }
 .img{
     width: 103px;
@@ -38,8 +39,9 @@
 }
 #skills{
      display: flex;   
-     background-color: antiquewhite;
+    /* background-color: antiquewhite;*/
     padding-top: 50px;
+     padding-bottom: 50px;
 }
 #skills_title{
     margin-left: 6vw;
@@ -50,9 +52,14 @@
     align-self: center;
 }
 #project{
-       display: block;  
-    background-color:pink;
+       display: block; 
+  /*  background-color:pink;*/
    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    align-self: center;
 }
 #project_title{  
     box-sizing: border-box;
@@ -70,8 +77,9 @@
 }
 #contact{
     display: flex; 
-    background-color:antiquewhite;
+   /* background-color:antiquewhite;*/
     padding-top: 50px;
+     padding-bottom: 50px;
 }
 #contact_title{
      margin-left: 6vw;
