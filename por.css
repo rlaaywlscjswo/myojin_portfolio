@@ -1,0 +1,79 @@
+
+#main{
+    background-color: antiquewhite;
+    height: 500px;    
+}
+#main h1{
+    font: black;    
+}
+#about{
+    display: flex;   
+    background-color: pink;
+   padding-top: 50px;
+}
+.img{
+    width: 103px;
+  
+}
+#about_title{
+    margin-left: 6vw;
+    margin-right: 12vw;
+    width: 25vw;
+    box-sizing: border-box;
+    text-align: center;
+    align-self: center;
+/*    border: 1px solid;*/
+}
+.about_section{
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-right: 8vw;
+    width: 100%;
+}
+#skills{
+     display: flex;   
+     background-color: beige;
+    padding-top: 50px;
+}
+#skills_title{
+    margin-left: 6vw;
+    margin-right: 12vw;
+    width: 25vw;
+    box-sizing: border-box;
+    text-align: center;
+    align-self: center;
+}
+#project{
+       display: block;  
+    background-color: dodgerblue;
+   padding-top: 50px;
+}
+#project_title{  
+    box-sizing: border-box;
+    text-align: center;
+    align-self: center;
+}
+
+.card{
+    margin-top: 20px;
+    width: 50%;
+   margin: 0 auto;    
+}
+.card mb-3{
+    max-width: 540px;
+}
+#contact{
+    display: flex; 
+    background-color: darkseagreen;
+    padding-top: 50px;
+}
+#contact_title{
+     margin-left: 6vw;
+    margin-right: 12vw;
+    width: 25vw;
+    box-sizing: border-box;
+    text-align: center;
+    align-self: center;
+}
