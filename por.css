@@ -1,10 +1,14 @@
 
 #main{
-    background-color: antiquewhite;
-    height: 500px;    
+         background-repeat: repeat;
+      background-attachment: fixed;  
+      background-size: 100%;
+    background-image: url(keyboard.jpg);
+    height: 800px;    
 }
 #main h1{
-    font: black;    
+    font: black;   
+    text-align: center;
 }
 #about{
     display: flex;   
@@ -34,7 +38,7 @@
 }
 #skills{
      display: flex;   
-     background-color: beige;
+     background-color: antiquewhite;
     padding-top: 50px;
 }
 #skills_title{
@@ -47,7 +51,7 @@
 }
 #project{
        display: block;  
-    background-color: dodgerblue;
+    background-color:pink;
    padding-top: 50px;
 }
 #project_title{  
@@ -66,7 +70,7 @@
 }
 #contact{
     display: flex; 
-    background-color: darkseagreen;
+    background-color:antiquewhite;
     padding-top: 50px;
 }
 #contact_title{
