@@ -44,9 +44,29 @@
     align-self: center;
 }
 #project{
-    display: flex;  
+       display: flex;  
     background-color: dodgerblue;
 }
+#project_title{
+    margin-left: 6vw;
+    margin-right: 12vw;
+    width: 25vw;
+    box-sizing: border-box;
+    text-align: center;
+    align-self: center;
+}
+.card{
+    margin-top: 20px;
+}
 #contact{
+    display: flex; 
     background-color: darkseagreen;
+}
+#contact_title{
+     margin-left: 6vw;
+    margin-right: 12vw;
+    width: 25vw;
+    box-sizing: border-box;
+    text-align: center;
+    align-self: center;
 }
