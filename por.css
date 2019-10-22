@@ -1,0 +1,52 @@
+
+#main{
+    background-color: antiquewhite;
+    height: 500px;    
+}
+#main h1{
+    font: black;    
+}
+#about{
+    display: flex;   
+    background-color: pink;
+}
+.img{
+    width: 103px;
+  
+}
+#about_title{
+    margin-left: 6vw;
+    margin-right: 12vw;
+    width: 25vw;
+    box-sizing: border-box;
+    text-align: center;
+    align-self: center;
+/*    border: 1px solid;*/
+}
+.about_section{
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-right: 8vw;
+    width: 100%;
+}
+#skills{
+     display: flex;   
+     background-color: beige;
+}
+#skills_title{
+    margin-left: 6vw;
+    margin-right: 12vw;
+    width: 25vw;
+    box-sizing: border-box;
+    text-align: center;
+    align-self: center;
+}
+#project{
+    display: flex;  
+    background-color: dodgerblue;
+}
+#contact{
+    background-color: darkseagreen;
+}
