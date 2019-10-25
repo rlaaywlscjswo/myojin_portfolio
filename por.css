@@ -20,13 +20,9 @@
 
 }
     #about_title {
-    margin-left: 6vw;
-    margin-right: 12vw;
-    margin: 0 auto;
-    width: 25vw;
-    box-sizing: border-box;
+   box-sizing: border-box;
     text-align: center;
-    align-self: center;   
+    align-self: center; 
 }
 
 #about_contents h1{
@@ -60,7 +56,6 @@
     padding-bottom: 50px;
     width: 100%;
     box-sizing: border-box;
-
     align-self: center;
 }
 
@@ -82,19 +77,16 @@
 }
 
 #contact {
-    display: flex;
-    /* background-color:antiquewhite;*/
+    display: block;   
     padding-top: 50px;
     padding-bottom: 50px;
+    text-align: center;
 }
 
 #contact_title {
-    margin-left: 6vw;
-    margin-right: 12vw;
-    width: 25vw;
     box-sizing: border-box;
     text-align: center;
-    align-self: center;
+    align-self: center; 
 }    
     
 }
