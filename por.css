@@ -1,35 +1,45 @@
+* {
+    font-family: 'Malgun Gothic';
+}
 
-#main{
-         background-repeat: no-repeat;
-      background-attachment: fixed;  
-      background-size: 100%;
+#main {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
     background-image: url(keyboard.jpg);
-    height: 700px;    
+    height: 450px;
 }
-#main h1{
-    font: black;   
-    text-align: center;
+
+#main h1 {
+    font: black;
+    position: relative;
+    top: 40%;
+    left: 40%;
 }
-#about{
-    display: flex;   
-   /* background-color: pink;*/
-   padding-top: 50px;
-     padding-bottom: 50px;
+
+#about {
+    display: flex;
+    /* background-color: pink;*/
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-.img{
+
+.img {
     width: 103px;
-  
+
 }
-#about_title{
+
+#about_title {
     margin-left: 6vw;
     margin-right: 12vw;
     width: 25vw;
     box-sizing: border-box;
     text-align: center;
     align-self: center;
-/*    border: 1px solid;*/
+    /*    border: 1px solid;*/
 }
-.about_section{
+
+.about_section {
     margin-bottom: 4rem;
     margin-top: 4rem;
     box-sizing: border-box;
@@ -37,13 +47,15 @@
     margin-right: 8vw;
     width: 100%;
 }
-#skills{
-     display: flex;   
+
+#skills {
+    display: flex;
     /* background-color: antiquewhite;*/
     padding-top: 50px;
-     padding-bottom: 50px;
+    padding-bottom: 50px;
 }
-#skills_title{
+
+#skills_title {
     margin-left: 6vw;
     margin-right: 12vw;
     width: 25vw;
@@ -51,38 +63,44 @@
     text-align: center;
     align-self: center;
 }
-#project{
-       display: block; 
-  /*  background-color:pink;*/
-   padding-top: 50px;
+
+#project {
+    display: block;
+    /*  background-color:pink;*/
+    padding-top: 50px;
     padding-bottom: 50px;
     width: 100%;
     box-sizing: border-box;
-    text-align: center;
+
     align-self: center;
 }
-#project_title{  
+
+#project_title {
     box-sizing: border-box;
     text-align: center;
     align-self: center;
 }
 
-.card{
+.card {
     margin-top: 20px;
     width: 50%;
-   margin: 0 auto;    
+    margin: 0 auto;
+
 }
-.card mb-3{
+
+.card mb-3 {
     max-width: 540px;
 }
-#contact{
-    display: flex; 
-   /* background-color:antiquewhite;*/
+
+#contact {
+    display: flex;
+    /* background-color:antiquewhite;*/
     padding-top: 50px;
-     padding-bottom: 50px;
+    padding-bottom: 50px;
 }
-#contact_title{
-     margin-left: 6vw;
+
+#contact_title {
+    margin-left: 6vw;
     margin-right: 12vw;
     width: 25vw;
     box-sizing: border-box;
