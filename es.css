@@ -1,0 +1,227 @@
+
+
+table {
+    border-collapse: collapse;
+}
+
+table , th, td {
+    border: 1px solid red;
+}
+
+td {
+    height: 150px;
+    width : 150px;
+}
+
+
+
+/* For mobile phones: */
+ /* For tablets: */
+@media only screen and (max-width: 1199px){
+   #main {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-image: url(keyboard.jpg);
+    height: 250px;
+} 
+    
+    #about {
+    display: block;  
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+    .img {
+    width: 103px;
+
+}
+    #about_title {
+   box-sizing: border-box;
+    text-align: center;
+    align-self: center; 
+}
+
+#about_contents h1{
+    padding-top: 20px;
+    text-align: center;
+    
+    }
+.about_section {       
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-right: 8vw;
+    width: 100%;
+}
+
+#skills {
+    display: block;    
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#skills_title{
+    box-sizing: border-box;
+    text-align: center;
+    align-self: center; 
+}
+
+#skills_contents{
+    border: 1px solid;        
+    }
+
+
+#project {
+    display: block;    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    align-self: center;
+}
+
+#project_title {
+    box-sizing: border-box;
+    text-align: center;
+    align-self: center;
+}
+
+.card {
+    margin-top: 20px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.card mb-3 {
+    max-width: 540px;
+}
+
+#contact {
+    display: block;   
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#contact_title {
+    box-sizing: border-box;
+    text-align: center;
+    align-self: center; 
+}    
+    
+}
+
+
+@media only screen and (min-width:1200px) {
+  /* For desktop: */
+  #main {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-image: url(keyboard.jpg);
+    height: 450px;
+}
+
+#main h1 {
+    font: black;
+    position: relative;
+    top: 40%;
+    left: 40%;
+}
+
+#about {
+    display: flex;
+    /* background-color: pink;*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.img {
+    width: 103px;
+
+}
+
+#about_title {
+    margin-left: 6vw;
+    margin-right: 12vw;
+    width: 25vw;
+    box-sizing: border-box;
+    text-align: center;
+    align-self: center;
+    /*    border: 1px solid;*/
+}
+
+.about_section {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-right: 8vw;
+    width: 100%;
+}
+
+#skills {
+    display: flex;    
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#skills_title {
+    margin-left: 6vw;
+    margin-right: 12vw;
+    width: 25vw;
+    box-sizing: border-box;
+    text-align: center;
+    align-self: center;
+}
+
+#skills_contents {
+    border: 1px solid;    
+}
+#project {
+    display: block;
+    /*  background-color:pink;*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    box-sizing: border-box;
+
+    align-self: center;
+}
+
+#project_title {
+    box-sizing: border-box;
+    text-align: center;
+    align-self: center;
+}
+
+.card {
+    margin-top: 20px;
+    width:70%;
+    margin: 0 auto;
+
+}
+
+.card mb-3 {
+    max-width: 540px;
+}
+
+#contact {
+    display: flex;
+    /* background-color:antiquewhite;*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#contact_title {
+    margin-left: 6vw;
+    margin-right: 12vw;
+    width: 25vw;
+    box-sizing: border-box;
+    text-align: center;
+    align-self: center;
+}
+
+}
